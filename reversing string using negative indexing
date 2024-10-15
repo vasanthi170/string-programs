@@ -1,0 +1,6 @@
+#reversing a string using range
+s   = 'python'
+rev = ''
+for ind in range(len(s)-1,-1,-1):
+    rev =  rev + s[ind]
+print(rev)
