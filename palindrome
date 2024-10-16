@@ -9,7 +9,7 @@ else:
     print('not a palindrome')
 
 
-#given string is palindrome or not
+#given string is palindrome or not..using for loop
 s   = 'madam'
 res = ''
 for ind in range(0,len(s)//2):
@@ -19,7 +19,7 @@ for ind in range(0,len(s)//2):
 else:
     print('palindrome')
 
-#given string is palindrome or not using
+#given string is palindrome or not..using while loop
 s   = 'madam'
 res = ''
 ind = 0
