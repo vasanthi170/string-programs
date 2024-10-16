@@ -19,3 +19,14 @@ for ind in range(0,len(s)//2):
 else:
     print('palindrome')
 
+#given string is palindrome or not using
+s   = 'madam'
+res = ''
+ind = 0
+while ind != len(s)//2:
+    if s[ind] != s[-ind-1]:
+        print('Not a Palindrome')
+        break
+    ind = ind+1
+else:  
+    print('Palindrome')
