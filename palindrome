@@ -1,0 +1,12 @@
+#given string is palindrome or not
+s   = 'malayalam'
+res = ''
+for ch in s:
+    res = ch + res
+if s == res:
+    print('palindrome')
+else:
+    print('not a palindrome')
+
+
+
