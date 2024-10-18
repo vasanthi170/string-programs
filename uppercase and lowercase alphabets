@@ -13,3 +13,12 @@ for ch in s:
     if 'A'<= ch <= 'Z':
         res += ch
 print(res)
+
+
+#lowercase alphabets
+s   = 'dEvelOPeRs'
+res = ''
+for ch in s:
+    if ch.islower():
+        res += ch
+print(res)
