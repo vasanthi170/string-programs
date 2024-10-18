@@ -5,3 +5,11 @@ for ch in s:
     if ch.isupper() == True:
         res += ch
 print(res)
+
+#uppercase alphabets without using inbuilt method
+s   = 'dEvelOPeRs'
+res = ''
+for ch in s:
+    if 'A'<= ch <= 'Z':
+        res += ch
+print(res)
