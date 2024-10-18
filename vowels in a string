@@ -1,0 +1,7 @@
+#vowels in a given string
+s   = 'developers'
+res = ''
+for ch in s:
+    if ch in 'aeiou':
+        res += ch
+print (res)
