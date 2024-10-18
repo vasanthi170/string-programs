@@ -1,0 +1,7 @@
+#program to print only uppercase alphabets
+s   = 'DeVeloPers'
+res = ''
+for ch in s:
+    if ch.isupper() == True:
+        res += ch
+print(res)
