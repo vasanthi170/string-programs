@@ -4,3 +4,11 @@ rev = ''
 for ch in s:
     rev = ch + rev
 print(rev)
+
+
+#reversing a string using range
+s   = 'python'
+rev = ''
+for ind in range(0,len(s)):
+    rev = s[ind] + rev
+print(rev)
