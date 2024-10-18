@@ -5,3 +5,13 @@ for ch in s:
     if ch.isalnum() == False:
         res += ch
 print(res)
+
+#special charecters without using inbuilt method
+s   = 'python@1$-#$%'
+res = ''
+for ch in s:
+    if 'A' <= ch <= 'Z' or 'a' <= ch <= 'z' or '0' <= ch <= '9':
+        pass
+    else:
+        res += ch
+print(res)
