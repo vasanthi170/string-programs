@@ -15,3 +15,13 @@ for ch in s:
     else:
         res += ch
 print(res)
+
+#special charecters by using range
+s   = 'python@1$-#$%'
+res = ''
+for ind in range(0,len(s)):
+    if 'A' <= s[ind] <= 'Z' or 'a' <= s[ind] <= 'z' or '0' <= s[ind] <= '9':
+        pass
+    else:
+        res += s[ind]
+print(res)
