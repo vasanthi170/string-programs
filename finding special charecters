@@ -1,0 +1,7 @@
+#special charecters using inbuilt method
+s   = 'python@1$-#$%'
+res = ''
+for ch in s:
+    if ch.isalnum() == False:
+        res += ch
+print(res)
