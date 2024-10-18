@@ -22,3 +22,12 @@ for ch in s:
     if ch.islower():
         res += ch
 print(res)
+
+
+#lowercase alphabets without using inbuilt method
+s   = 'dEvelOPeRs'
+res = ''
+for ch in s:
+    if 'a'<= ch <= 'z':
+        res += ch
+print(res)
