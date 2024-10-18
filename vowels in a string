@@ -5,3 +5,12 @@ for ch in s:
     if ch in 'aeiou':
         res += ch
 print (res)
+
+
+#vowels in a string using range
+s   = 'developers'
+res = ''
+for ind in range(0,len(s)):
+    if s[ind] in 'aeiou':
+        res += s[ind]
+print(res)
