@@ -14,3 +14,11 @@ for sv in range(len(s)):
         for ind in range(sv,ev):
             res += s[ind]
         print(res)
+
+#removing duplicates
+s   = 'happy'
+res = ''
+for ch in s:
+    if ch not in res:
+        res += ch
+print(res)
