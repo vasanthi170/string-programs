@@ -1,0 +1,8 @@
+#counting the number of occurences of charecter
+s   = 'happy'
+res =  ''
+for ch in s:
+    if ch not in res:
+        res += ch
+for ch in res:
+    print(f'{ch}={s.count(ch)}')
