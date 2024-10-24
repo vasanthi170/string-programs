@@ -39,3 +39,5 @@ for ind in range(len(s)-1,-1,-1):
         word = ''
 l.append(word)
 print(l)
+o/p:-
+['world', 'bye', 'world', 'Hello']
