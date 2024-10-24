@@ -1,0 +1,12 @@
+#program to print each and everyword
+s    = 'Hello world bye world'
+l    = []
+word = ''
+for ch in s:
+    if ch != ' ':
+        word = word +ch
+    else:
+        l.append(word)
+        word = ''
+l.append(word)
+print(l)
