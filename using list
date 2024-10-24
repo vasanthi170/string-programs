@@ -10,3 +10,19 @@ for ch in s:
         word = ''
 l.append(word)
 print(l)
+o/p:-
+['Hello', 'world', 'bye', 'world']
+
+s    = 'Hello world bye world'
+l    = []
+word = ''
+for ch in s:
+    if ch != ' ':
+        word = ch + word
+    else:
+        l.append(word)
+        word = ''
+l.append(word)
+print(l)
+o/p:-
+['olleH', 'dlrow', 'eyb', 'dlrow']
