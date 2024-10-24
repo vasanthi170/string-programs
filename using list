@@ -26,3 +26,16 @@ l.append(word)
 print(l)
 o/p:-
 ['olleH', 'dlrow', 'eyb', 'dlrow']
+
+
+s    = 'Hello world bye world'
+l    = []
+word = ''
+for ind in range(len(s)-1,-1,-1):
+    if s[ind] != ' ':
+        word = s[ind] + word
+    else:
+        l.append(word)
+        word = ''
+l.append(word)
+print(l)
